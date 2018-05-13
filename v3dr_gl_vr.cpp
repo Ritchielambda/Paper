@@ -2832,34 +2832,38 @@ void CMainApplication::ProcessVREvent( const vr::VREvent_t & event )
 				}
 				//add two NT
 				NeuronTree splitNT1,splitNT2;
-				V3DLONG tempminusN=nearestNode.n-1;
 				for(int k=0;k<nearestNT.listNeuron.size();k++)
 				{
-					qDebug()<<"split coming";
-					if(nearestNT.listNeuron.at(k).n<=nearestNode.n)
-					{ 
-						splitNT1.listNeuron.append(nearestNT.listNeuron.at(k));
-        				splitNT1.hashNeuron.insert(nearestNT.listNeuron.at(k).n, splitNT1.listNeuron.size()-1);
-					}
-					else
-					{	qDebug()<<"add secNT head = nearestnode";
-						if(nearestNT.listNeuron.at(k).n==nearestNode.n+1)
-						{
+					qDebug()<<k<<" node 's pn =  "<<nearestNT.listNeuron.at(k).pn;
+					 
 
-							NeuronSWC secHeadNS=nearestNode;
-							secHeadNS.n=1;
-							secHeadNS.pn=-1;
-							secHeadNS.x-=2;
-							splitNT2.listNeuron.append(secHeadNS);
-							splitNT2.hashNeuron.insert(secHeadNS.n, splitNT2.listNeuron.size()-1);
-							
-						}
+					 qDebug()<<"split coming";
+					 if(nearestNT.listNeuron.at(k).n<=nearestNode.n)
+					 { 
+					 	splitNT1.listNeuron.append(nearestNT.listNeuron.at(k));
+        			 	splitNT1.hashNeuron.insert(nearestNT.listNeuron.at(k).n, splitNT1.listNeuron.size()-1);
+					 }
+					 else
+					 {	
+						qDebug()<<"add secNT head = nearestnode";
 						NeuronSWC secnode=nearestNT.listNeuron.at(k);
-						secnode.n-=tempminusN;
-						secnode.pn-=tempminusN;
-						splitNT2.listNeuron.append(secnode);
-        				splitNT2.hashNeuron.insert(secnode.n, splitNT2.listNeuron.size()-1);
-					}
+					 	if(nearestNT.listNeuron.at(k).n==nearestNode.n+1)
+					 	{
+
+					 		NeuronSWC secHeadNS=nearestNode;
+					 		secHeadNS.pn=-1;
+							glm::vec3 directionsplit(secHeadNS.x-secnode.x,secHeadNS.y-secnode.y,secHeadNS.z-secnode.z);
+							directionsplit=glm::normalize(directionsplit);
+							secHeadNS.x-=directionsplit.x;
+							secHeadNS.y-=directionsplit.y;
+							secHeadNS.z-=directionsplit.z;
+					 		splitNT2.listNeuron.append(secHeadNS);
+					 		splitNT2.hashNeuron.insert(secHeadNS.n, splitNT2.listNeuron.size()-1);
+					 	}
+					 	
+					 	splitNT2.listNeuron.append(secnode);
+        			 	splitNT2.hashNeuron.insert(secnode.n, splitNT2.listNeuron.size()-1);
+					 }
 				}
 				splitNT1.name = "sketch_"+QString("%1").arg(sketchNum++);
 				qDebug()<<splitNT1.name;
