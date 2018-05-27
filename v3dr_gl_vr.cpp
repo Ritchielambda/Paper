@@ -6,7 +6,7 @@
 #include "../v3d/vr_vaa3d_call.h"
 #include "../neuron_tracing/fastmarching_linker.h"
 
-// merge new branch 2
+// merge new branch 2  master
 
 #if defined( OSX )
 #include <Foundation/Foundation.h>
