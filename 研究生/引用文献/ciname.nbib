@@ -1,0 +1,75 @@
+
+PMID- 15264254
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20040916
+LR  - 20181020
+IS  - 0192-8651 (Print)
+IS  - 0192-8651 (Linking)
+VI  - 25
+IP  - 13
+DP  - 2004 Oct
+TI  - UCSF Chimera--a visualization system for exploratory research and analysis.
+PG  - 1605-12
+AB  - The design, implementation, and capabilities of an extensible visualization
+      system, UCSF Chimera, are discussed. Chimera is segmented into a core that
+      provides basic services and visualization, and extensions that provide most
+      higher level functionality. This architecture ensures that the extension
+      mechanism satisfies the demands of outside developers who wish to incorporate new
+      features. Two unusual extensions are presented: Multiscale, which adds the
+      ability to visualize large-scale molecular assemblies such as viral coats, and
+      Collaboratory, which allows researchers to share a Chimera session interactively 
+      despite being at separate locales. Other extensions include Multalign Viewer, for
+      showing multiple sequence alignments and associated structures; ViewDock, for
+      screening docked ligand orientations; Movie, for replaying molecular dynamics
+      trajectories; and Volume Viewer, for display and analysis of volumetric data. A
+      discussion of the usage of Chimera in real-world situations is given, along with 
+      anticipated future directions. Chimera includes full user documentation, is free 
+      to academic and nonprofit users, and is available for Microsoft Windows, Linux,
+      Apple Mac OS X, SGI IRIX, and HP Tru64 Unix from
+      http://www.cgl.ucsf.edu/chimera/.
+CI  - Copyright 2004 Wiley Periodicals, Inc.
+FAU - Pettersen, Eric F
+AU  - Pettersen EF
+AD  - Computer Graphics Laboratory, Department of Pharmaceutical Chemistry, University 
+      of California, 600 16th Street, San Francisco, California 94143-2240, USA.
+FAU - Goddard, Thomas D
+AU  - Goddard TD
+FAU - Huang, Conrad C
+AU  - Huang CC
+FAU - Couch, Gregory S
+AU  - Couch GS
+FAU - Greenblatt, Daniel M
+AU  - Greenblatt DM
+FAU - Meng, Elaine C
+AU  - Meng EC
+FAU - Ferrin, Thomas E
+AU  - Ferrin TE
+LA  - eng
+GR  - P41 RR001081/RR/NCRR NIH HHS/United States
+GR  - P41-RR01081/RR/NCRR NIH HHS/United States
+PT  - Journal Article
+PT  - Research Support, U.S. Gov't, P.H.S.
+PL  - United States
+TA  - J Comput Chem
+JT  - Journal of computational chemistry
+JID - 9878362
+SB  - IM
+MH  - Amino Acid Sequence
+MH  - Computer Graphics
+MH  - *Models, Molecular
+MH  - Molecular Conformation
+MH  - Molecular Sequence Data
+MH  - Research
+MH  - *Sequence Alignment
+MH  - *Software
+MH  - Thermodynamics
+EDAT- 2004/07/21 05:00
+MHDA- 2004/09/17 05:00
+CRDT- 2004/07/21 05:00
+PHST- 2004/07/21 05:00 [pubmed]
+PHST- 2004/09/17 05:00 [medline]
+PHST- 2004/07/21 05:00 [entrez]
+AID - 10.1002/jcc.20084 [doi]
+PST - ppublish
+SO  - J Comput Chem. 2004 Oct;25(13):1605-12. doi: 10.1002/jcc.20084.

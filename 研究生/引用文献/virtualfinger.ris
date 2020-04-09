@@ -1,0 +1,32 @@
+TY  - JOUR
+AU  - Peng, Hanchuan
+AU  - Tang, Jianyong
+AU  - Xiao, Hang
+AU  - Bria, Alessandro
+AU  - Zhou, Jianlong
+AU  - Butler, Victoria
+AU  - Zhou, Zhi
+AU  - Gonzalez-Bellido, Paloma T.
+AU  - Oh, Seung W.
+AU  - Chen, Jichao
+AU  - Mitra, Ananya
+AU  - Tsien, Richard W.
+AU  - Zeng, Hongkui
+AU  - Ascoli, Giorgio A.
+AU  - Iannello, Giulio
+AU  - Hawrylycz, Michael
+AU  - Myers, Eugene
+AU  - Long, Fuhui
+PY  - 2014
+DA  - 2014/07/11
+TI  - Virtual finger boosts three-dimensional imaging and microsurgery as well as terabyte volume image visualization and analysis
+JO  - Nature Communications
+SP  - 4342
+VL  - 5
+IS  - 1
+AB  - Three-dimensional (3D) bioimaging, visualization and data analysis are in strong need of powerful 3D exploration techniques. We develop virtual finger (VF) to generate 3D curves, points and regions-of-interest in the 3D space of a volumetric image with a single finger operation, such as a computer mouse stroke, or click or zoom from the 2D-projection plane of an image as visualized with a computer. VF provides efficient methods for acquisition, visualization and analysis of 3D images for roundworm, fruitfly, dragonfly, mouse, rat and human. Specifically, VF enables instant 3D optical zoom-in imaging, 3D free-form optical microsurgery, and 3D visualization and annotation of terabytes of whole-brain image volumes. VF also leads to orders of magnitude better efficiency of automated 3D reconstruction of neurons and similar biostructures over our previous systems. We use VF to generate from images of 1,107 Drosophila GAL4 lines a projectome of a Drosophila brain.
+SN  - 2041-1723
+UR  - https://doi.org/10.1038/ncomms5342
+DO  - 10.1038/ncomms5342
+ID  - Peng2014
+ER  - 

@@ -1,0 +1,21 @@
+TY  - JOUR
+T1  - BigNeuron: Large-Scale 3D Neuron Reconstruction from Optical Microscopy Images
+AU  - Peng, Hanchuan
+AU  - Hawrylycz, Michael
+AU  - Roskams, Jane
+AU  - Hill, Sean
+AU  - Spruston, Nelson
+AU  - Meijering, Erik
+AU  - Ascoli, Giorgio A.
+JO  - Neuron
+VL  - 87
+IS  - 2
+SP  - 252
+EP  - 256
+PY  - 2015
+DA  - 2015/07/15/
+SN  - 0896-6273
+DO  - https://doi.org/10.1016/j.neuron.2015.06.036
+UR  - http://www.sciencedirect.com/science/article/pii/S0896627315005991
+AB  - Understanding the structure of single neurons is critical for understanding how they function within neural circuits. BigNeuron is a new community effort that combines modern bioimaging informatics, recent leaps in labeling and microscopy, and the widely recognized need for openness and standardization to provide a community resource for automated reconstruction of dendritic and axonal morphology of single neurons.
+ER  - 

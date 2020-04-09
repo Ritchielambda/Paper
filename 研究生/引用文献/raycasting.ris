@@ -1,0 +1,61 @@
+TY  - JOUR
+TI  - Ray casting architectures for volume visualization
+T2  - IEEE Transactions on Visualization and Computer Graphics
+SP  - 210
+EP  - 223
+AU  - H. Ray
+AU  - H. Pfister
+AU  - D. Silver
+AU  - T. A. Cook
+PY  - 1999
+KW  - ray tracing
+KW  - rendering (computer graphics)
+KW  - parallel architectures
+KW  - data visualisation
+KW  - special purpose computers
+KW  - pipeline processing
+KW  - performance evaluation
+KW  - interactive systems
+KW  - computer graphic equipment
+KW  - ray-casting architectures
+KW  - real-time volume visualization
+KW  - large volume data sets
+KW  - high-performance computation
+KW  - data storage requirements
+KW  - data processing requirements
+KW  - data communication requirements
+KW  - interactive frame rates
+KW  - supercomputers
+KW  - special-purpose architectures
+KW  - volume rendering
+KW  - parallel processors
+KW  - pipelined hardware
+KW  - performance normalization metric
+KW  - survey
+KW  - VOGUE
+KW  - VIRIM
+KW  - Array-Based Ray Casting
+KW  - EM-Cube
+KW  - VIZARD II
+KW  - special-purpose visualization accelerators
+KW  - Casting
+KW  - Data visualization
+KW  - Magnetic resonance imaging
+KW  - Silver
+KW  - Costs
+KW  - Computational modeling
+KW  - Geophysics computing
+KW  - Computed tomography
+KW  - Computer architecture
+KW  - High performance computing
+DO  - 10.1109/2945.795213
+JO  - IEEE Transactions on Visualization and Computer Graphics
+IS  - 3
+SN  - 2160-9306
+VO  - 5
+VL  - 5
+JA  - IEEE Transactions on Visualization and Computer Graphics
+Y1  - July-Sept. 1999
+ER  - 
+
+
