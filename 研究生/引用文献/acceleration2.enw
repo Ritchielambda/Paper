@@ -1,0 +1,13 @@
+%0 Conference Paper
+%T GPU acceleration of stereoscopic and multi-view rendering for virtual reality applications
+%@ 9781605588698
+%U https://doi.org/10.1145/1643928.1643953
+%R 10.1145/1643928.1643953
+%B Proceedings of the 16th ACM Symposium on Virtual Reality Software and Technology
+%I Association for Computing Machinery
+%A Jonathan Marbach
+%D 2009
+%P 103–110
+%K layered rendering, geometry shader, stereoscopic rendering, multi-viewer images, virtual reality
+%C Kyoto, Japan
+  
